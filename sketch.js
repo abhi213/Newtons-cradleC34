@@ -22,15 +22,15 @@ function setup() {
     World.add(world, mConstraint);
 	//Create the Bodies Here.
 	bob1 = new Pendulum(300, 600, "yellow");
-	bob2 = new Pendulum(400, 600, "yellow");
-	bob3 = new Pendulum(500, 600, "yellow");
-	bob4 = new Pendulum(600, 600, "yellow");
-	bob5 = new Pendulum(700, 600, "yellow");
-	sling1 = new Sling(bob1.body, {x:100, y:50});
-	sling2 = new Sling(bob2.body, {x:150, y:50});
-	sling3 = new Sling(bob3.body, {x:200, y:50});
-	sling4 = new Sling(bob4.body, {x:250, y:50});
-	sling5 = new Sling(bob5.body, {x:300, y:50});
+	bob2 = new Pendulum(350, 600, "yellow");
+	bob3 = new Pendulum(400, 600, "yellow");
+	bob4 = new Pendulum(450, 600, "yellow");
+	bob5 = new Pendulum(500, 600, "yellow");
+	sling1 = new Sling(bob1.body, {x:300, y:50});
+	sling2 = new Sling(bob2.body, {x:350, y:50});
+	sling3 = new Sling(bob3.body, {x:400, y:50});
+	sling4 = new Sling(bob4.body, {x:450, y:50});
+	sling5 = new Sling(bob5.body, {x:500, y:50});
 
 	Engine.run(engine);
 }
